@@ -16,4 +16,4 @@ existing www. project.
 5. Edit nginx.conf to send requests going to your single domain to use the moovweb origin
 
 6. Run nginx using the included nginx.conf as your configuration file
-  - $nginx -c '~/path/to/this/folder/nginx.conf'
+  - nginx -c '~/path/to/this/folder/nginx.conf'
